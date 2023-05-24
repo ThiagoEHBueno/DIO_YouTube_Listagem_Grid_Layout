@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    height: 80.5px;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    align-items: center;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    margin: 0 10px 0 50px;
+    height: 18px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.div {
+    display: flex;
+}
+
+.header_content input {
+    border-radius: 25px 0 0 25px;
+    border-right: none;
+    margin-top: 23px;
+    height: 25px;
+    width: 500px;
+}
+
+.lupa {
+    height: 25px;
+    padding: 0 10px 0 10px;
+    margin-top: 23px;
+    border: solid 2px;
+    border-radius: 0 25px 25px 0;
+}
+
+.end img{
+    height: 30px;
+    margin: 23px 15px 0 10px;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+.thi {
+    border-radius: 25px;
+}
+
+.side-bar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.side-bar img {
+    height: 18px;
+    margin-right: 15px;
+}
+
+.side-videos {
+    background-color: #F9F9F9;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 80px;
+}
+
+.items-video {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+    row-gap: 50px;
+}
+
+.items-video img{
+    width: 250px;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 10px;
+    margin-left: 20px;
+}
+
+.text h2 {
+    margin: 0;
+}
+  
+.text p {
+  margin-left: -75%;
+}
+
+.inline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    margin-top: 15px;
+    width: 250px;
+}
+
+.inline img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.inline h2 {
+    margin-left: -80px;
+}
+
+.inline p {
+    justify-content: flex-end;
+}
